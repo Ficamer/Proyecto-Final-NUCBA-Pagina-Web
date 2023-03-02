@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Proyecto Final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/61ebb60581.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check" class="sanguchito"><i class="fas fa-bars"></i></label>  
+        <nav class="navegador">
+            <img src="img/icono.png">
+            <ul>
+                <a href="#"><li>Inicio</li></a>
+                <a href="#nosotros"><li>Nosotros</li></a>
+                <a href="#contenedor-contacto"><li>Contacto</li></a>
+                <div id="botonlogin"><a href="login.html"><li>Ingresar</li></a></div>
+            </ul>
+        </nav>
+
+        <div class="portada">
+            <img src="img/portada.jpg">
+            <div class="portada-parrafo">
+                <h1><span class="texto-rojo">LA </span>MÚSICA <span class="texto-rojo">EN UN </span>SOLO <span class="texto-rojo">LUGAR.</span></h1>
+                <a href="#catalogo"><input type="submit" value="Ver productos"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="nosotros">
+        <div class="texto-nosotros" id="nosotros">
+            <h2>¿Por qué elegirnos?</h2>
+            <p>Somos la tienda numero 1 de instrumentos musicales en Argentina. Nos dedicamos a traer instrumentos de las marcas mas conocidas internacionalmente, somos una tienda que prioriza las preferencias del cliente y busca satisfacerlas. Contamos con más de 350 años en el rubro y nuestras en referencias se demuestra nuestro compromiso.</p>
+        </div>
+        <div class="imagen-nosotros">
+            <img src="img/nosotros.jpeg">
+        </div>
+    </div>
+
+    <div class="catalogo" id="catalogo">
+        <div class="productos"><img src="img/bajo.png"><div class="productos-info"><h2>Bajo 230LE</h2><p>$1000 / 6 cuotas de $1500</p><button>Con stock</button><input type="submit" value="Comprar"></div></div>
+        <div class="productos"><img src="img/guitarra1.png"><div class="productos-info"><h2>Guitarra Fender 32K</h2><p>$2000 / 3 cuotas de $1500</p><button>Con stock</button><input type="submit" value="Comprar"></div></div>
+        <div class="productos"><img src="img/guitarra2.png"><div class="productos-info"><h2>Guitarra Gibson 23L</h2><p>$6000 / 2 cuotas de $1500</p><button>Con stock</button><input type="submit" value="Comprar"></div></div>
+        <div class="productos"><img src="img/guitarra3.png"><div class="productos-info"><h2>Guitarra G.Shelter</h2><p>$10000 / 20 cuotas de $1500</p><button>Con stock</button><input type="submit" value="Comprar"></div></div>
+    </div>
+
+    <div class="contenedor-contacto" id="contenedor-contacto">
+        <form class="contacto">
+            <img src="img/icono2.png" id="icono">
+            <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            <input type="email" name="email" placeholder="Dirección de e-mail">
+            <input type="tel" name="telefono" placeholder="Número de teléfono">
+            <textarea name="mensaje" placeholder="Escriba su mensaje" rows="10" cols="30"></textarea>
+            <input type="submit" name="enviar" value="Enviar" id="enviar">
+
+        </form>
+    </div>
+    <footer>
+        <h3>Derechos reservados @Lucas Quintana</h3>
+    </footer> 
+</body>
+</html>
