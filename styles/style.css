@@ -70,9 +70,16 @@ body {
     justify-content: center;
     align-items:center;
     background-color: #000004;
-
 }
-.portada img{
+
+.portada-imagen {
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    width:100%;
+    height:100%;
+}
+.portada-imagen img{
     width: 90%;
     height:80%;
     border-radius:5px;
@@ -169,7 +176,8 @@ footer {
     height:375px;
     width:300px;
     background-color:#fbfef9;
-    margin-left:30px;
+    margin-left:15px;
+    margin-right:15px;
     margin-top:15px;
     box-shadow: 0px 0px 5px 0px;
     border-radius:10px;
@@ -240,6 +248,7 @@ footer {
     align-items:center;
     justify-content: center;
     font-family: monospace;
+    box-shadow: 3px 3px 30px black;
 }
 .contacto input {
     padding: 0 10px;
@@ -325,19 +334,22 @@ footer {
     }
     .portada {
         width:100%;
-        height:80vh;
+        height:100vh;
         display:flex;
         justify-content: center;
         align-items:center;
+
     }
     .portada-parrafo {
         width:80%;
+        font-size: 0.9em;
     }
-    .portada img{
-        width: 95%;
-        height:50%;
-        border-radius:5px;
-        box-shadow: 0px 0px 15px;
+    .portada-imagen {
+        height:70%;
+        overflow:hidden;
+    }
+    .portada-imagen img{
+        transform: scale(1.8,2);
     }
     .texto-nosotros {
         width:90%;
